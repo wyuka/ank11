@@ -1,0 +1,154 @@
+#header
+{
+	background-color: #F0F0F0;
+	background: url("../images/headbg_norm.jpg");
+	color: #ffffff;
+}
+
+#headertop
+{
+	background-color: #F0F0F0;
+	background: url("../images/headbg_top.jpg");
+	color: #ffffff;
+	
+}
+
+#headerbottom
+{
+	background-color: #F0F0F0;
+	background: url("../images/headbg_bottom.jpg");
+	color: #ffffff;
+	
+}
+
+body
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: verdana, tahoma, sans-serif;
+	font-size: 13px;
+}
+
+img
+{
+	border: none;
+}
+
+.topnav
+{
+	position: relative;
+	right: 10px;
+}
+
+a:link, a:visited
+{
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+#headerimage
+{
+	position: relative;
+	left: 100px;
+}
+
+.main
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.lefttd
+{
+	left: 0;
+	padding: 0;
+}
+
+.righttd
+{
+	padding: 0px;
+
+}
+
+.leftpane
+{
+	background: #E0E0E5;
+
+
+}
+
+.rightpane
+{
+	background: #E0E0E5;
+}
+
+.midpane
+{
+	background-color: #FFFFFF;
+}
+
+.leftshadow
+{
+	background-image: url('../images/container-left-shadow.png');
+	background-color: #E0E0E5 ;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	width: 9px;
+}
+
+.rightshadow
+{
+	background-image: url('../images/container-right-shadow.png');
+	background-color: #E0E0E5 ;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	width: 9px;
+}
+
+.topshadow
+{
+	background-image: url('../images/container-top-shadow.png');
+	background-color: transparent ;
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	height: 9px;
+	width: 100%;
+	position: absolute;
+	top: 266px;
+	z-index: 10;
+}
+
+.tagcloud
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.followicon
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer
+{
+	background: url('../images/footer.jpg');
+	background-position: 0% 0%;
+	background-repeat: repeat-x;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: #FFFFFF;
+}
+
+.footertext
+{
+	line-height: 0.2;
+}
