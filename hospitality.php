@@ -1,8 +1,9 @@
 <div class="page">
 <h1 class="cufon1">Accomodation</h1>
 <p>
-We, Maths 'N' Tech Club, welcome you all to the 2 day – 3 night extravaganza.
-We thoroughly believe in the tradition of <blockquote>Atithi Devo Bhawa</blockquote>
+We, Maths 'N' Tech Club, welcome you all to the fun-filled 2 days and 3
+nights of celebration of knowledge. We thoroughly abide by the tradition of
+<em>Atithi Devo Bhawa</em>.
 At Ank 11, we promise to make every moment of your stay memorable,
 enjoyable, and hassle-free. Our sincerest endeavour is to help you
 participate in all events and have a fun time here at NIT Durgapur
@@ -25,7 +26,7 @@ Rishipratim Mazumdar
 +91 90022 36725
 </p>
 <p>
-<p style="text-align: center;"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=nit+durgapur&amp;ie=UTF8&amp;hq=nit+durgapur&amp;hnear=&amp;ll=23.552107,87.291527&amp;spn=0.027538,0.036478&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=nit+durgapur&amp;ie=UTF8&amp;hq=nit+durgapur&amp;hnear=&amp;ll=23.552107,87.291527&amp;spn=0.027538,0.036478&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<p style="text-align: center; border: 1px solid #909090;"><iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=nit+durgapur&amp;ie=UTF8&amp;hq=nit+durgapur&amp;hnear=&amp;ll=23.552107,87.291527&amp;spn=0.027538,0.036478&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=nit+durgapur&amp;ie=UTF8&amp;hq=nit+durgapur&amp;hnear=&amp;ll=23.552107,87.291527&amp;spn=0.027538,0.036478&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 </p>
 <p>
 <h2>How to Reach Us</h2>

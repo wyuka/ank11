@@ -84,7 +84,7 @@
                             <td valign="top" align="center"  class="leftpane" width="80px">
                                 <table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td valign="top" align="center" >
                                     <div><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fank11.mathsntech.in%2F1.0%2F&amp;layout=box_count&amp;show_faces=false&amp;width=80&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:55px; height:70px; padding-top: 50px;" allowTransparency="true"></iframe></div>
-                                    <div class="followicon"><a target="_blank" href="#"><img src="images/facebook.png" width="32" height="32" alt="facebook" /></a></div>
+                                    <div class="followicon"><a target="_blank" href="http://www.facebook.com/pages/Ank-11/227799350578918"><img src="images/facebook.png" width="32" height="32" alt="facebook" /></a></div>
                                     <div class="followicon"><a target="_blank" href="http://www.twitter.com/ank2011/"><img src="images/twitter.png" width="32" height="32" alt="twitter" /></a></div>
                                     <div class="followicon"><a target="_blank" href="#"><img src="images/orkut.png" width="32" height="32" alt="orkut" /></a></div>
                                     <div class="followicon"><a target="_blank" href="#"><img src="images/rss.png" width="32" height="32" alt="rss" /></a></div>
