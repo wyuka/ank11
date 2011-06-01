@@ -18,7 +18,7 @@
                         <a href="index.php?p=register" class="register cufon1"><span>Register</span></a>
                         <a href="login" class="login cufon1"><span>Login</span></a>
                     </div>
-                    <fieldset id="login_menu"><form method="post" id="login" action="index.php?p=login">
+                    <fieldset id="login_menu"><form method="post" id="login" action="login.php">
                         <label for="username">Username</label>
                         <input id="username" name="username" value="" title="username" tabindex="4" type="text" />
                         <p>
@@ -62,7 +62,7 @@
                             <a class="dock-item" href="#"><img src="images/dock/blackboard1.png" alt="Workshops" /><span class="cufon1" style="font-size: 20px;">Workshops</span></a> 
                             <a class="dock-item" href="#"><img src="images/dock/gallery2.png" alt="Gallery" /><span class="cufon1" style="font-size: 20px;">Gallery</span></a> 
                             <a class="dock-item" href="#"><img src="images/dock/bus.png" alt="Hospitality" /><span class="cufon1" style="font-size: 20px;">Hospitality</span></a> 
-                            <a class="dock-item" href="#"><img src="images/dock/phone2.png" alt="Contact" /><span class="cufon1" style="font-size: 20px;">Contact</span></a> 
+                            <a class="dock-item" href="index.php?p=contact"><img src="images/dock/phone2.png" alt="Contact" /><span class="cufon1" style="font-size: 20px;">Contact</span></a> 
                         </div>
                     </div>
                 </td>
@@ -88,6 +88,10 @@
                                             if ($_GET['p'] == "register")
                                             {
                                                 include "register.php";
+                                            }
+                                            elseif ($_GET['p'] == "contact")
+                                            {
+                                                include "contact.php";
                                             }
                                             else
                                             {
