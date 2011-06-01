@@ -167,3 +167,12 @@ blockquote
 {
     font-style: italic;
 }
+
+.update
+{
+    font-size: 13px;
+    text-align: justify;
+    width: 245px;
+    height: 120px;
+    color: black;
+}

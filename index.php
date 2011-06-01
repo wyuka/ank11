@@ -17,6 +17,9 @@
         <link rel="stylesheet" type="text/css" href="res/dock/style.css" />
         <link rel="stylesheet" type="text/css" href="res/login.css" />
 
+        <script type="text/javascript" src="res/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="res/dock/interface.js"></script>
+        <script type="text/javascript" src="res/carousel/jquery.jcarousel.min.js"></script>
 
         <title>Ank 11 -- Experience Exhileration</title>
     </head>
@@ -51,7 +54,6 @@
                     <table id="header"  width="100%" height="150">
                        <tr>
                            <td>
-                               <!--<div class="cufon5" style="font-size: 80px; position: relative; left: 100px;">Ank 2011</div>-->
                                <img src="images/header.png"  width="371" height="54" id="headerimage" alt="Ank '2011" />
                            </td>
                            <td width="377">
@@ -62,7 +64,7 @@
                 </td>
             </tr>
             <tr id="headerbottom" height="82px">
-                <td align="center" >
+                <td align="center">
                     <div class="dock" id="dock">
                         <div class="dock-container">
                             <a class="dock-item" href="index.php?p=home"><img src="images/dock/home1.png" alt="Home" /><span class="cufon1" style="font-size: 20px;">Home</span></a> 
@@ -99,6 +101,10 @@
                                             {
                                                 include "register.php";
                                             }
+                                            elseif ($p == "about")
+                                            {
+                                                include "about.php";
+                                            }
                                             elseif ($p == "hospitality")
                                             {
                                                 include "hospitality.php";
@@ -107,13 +113,13 @@
                                             {
                                                 include "contact.php";
                                             }
-                                            elseif ($p == "404")
+                                            elseif ($p == "home")
                                             {
-                                                include "404.php";
+                                                include "home.php";
                                             }
                                             else
                                             {
-                                                include "home.php";
+                                                include "404.php";
                                             }
                                         ?></td>
                                     </tr>
@@ -122,6 +128,13 @@
                             <td width="9px" class="rightshadow" />
                             <td valign="top" align="center"  class="rightpane" width="300px">
                                 <table border="0" cellspacing="0" cellpadding="0" width="100%" height="1000px">
+                                    <tr>
+                                        <td valign="top" align="center">
+                                            <div>
+                                                <?php include "updatescarousel.php" ?>
+                                            </div>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td valign="top" align="center" >
                                             <div id="wpcumuluswidgetcontent" class="tagcloud">
@@ -144,6 +157,14 @@
                                             </script>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td valign="top" align="center">
+                                            <div>
+                                                <?php include "sponsorcarousel.php" ?>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr height="100%"><td></td></tr>
                                 </table>
                             </td>
                         </tr>
@@ -200,8 +221,6 @@
             </td></tr>
         </tbody></table>
         <div class="topshadow"/>
-        <script type="text/javascript" src="res/dock/jquery.js"></script>
-        <script type="text/javascript" src="res/dock/interface.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $(".login").click(function(e){

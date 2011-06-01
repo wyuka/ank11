@@ -1,3 +1,3 @@
 <div class="page">
-lolx
+<h1>Home</h1>
 </div>
