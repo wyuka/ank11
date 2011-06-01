@@ -1,3 +1,13 @@
+<?php
+    if($_GET['p'])
+    {
+        $p = $_GET['p'];
+    }
+    else
+    {
+        $p = "";
+    }
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -85,19 +95,19 @@
                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                     <tr valign="top">
                                         <td><?php
-                                            if ($_GET['p'] == "register")
+                                            if ($p == "register")
                                             {
                                                 include "register.php";
                                             }
-                                            elseif ($_GET['p'] == "hospitality")
+                                            elseif ($p == "hospitality")
                                             {
                                                 include "hospitality.php";
                                             }
-                                            elseif ($_GET['p'] == "contact")
+                                            elseif ($p == "contact")
                                             {
                                                 include "contact.php";
                                             }
-                                            elseif ($_GET['p'] == "404")
+                                            elseif ($p == "404")
                                             {
                                                 include "404.php";
                                             }
