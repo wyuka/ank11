@@ -61,7 +61,7 @@
                             <a class="dock-item" href="#"><img src="images/dock/card.png" alt="Sponsors" /><span class="cufon1" style="font-size: 20px;">Sponsors</span></a> 
                             <a class="dock-item" href="#"><img src="images/dock/blackboard1.png" alt="Workshops" /><span class="cufon1" style="font-size: 20px;">Workshops</span></a> 
                             <a class="dock-item" href="#"><img src="images/dock/gallery2.png" alt="Gallery" /><span class="cufon1" style="font-size: 20px;">Gallery</span></a> 
-                            <a class="dock-item" href="#"><img src="images/dock/bus.png" alt="Hospitality" /><span class="cufon1" style="font-size: 20px;">Hospitality</span></a> 
+                            <a class="dock-item" href="index.php?p=hospitality"><img src="images/dock/bus.png" alt="Hospitality" /><span class="cufon1" style="font-size: 20px;">Hospitality</span></a> 
                             <a class="dock-item" href="index.php?p=contact"><img src="images/dock/phone2.png" alt="Contact" /><span class="cufon1" style="font-size: 20px;">Contact</span></a> 
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                 <td valign="top" align="center" >
                     <table class="main" border="0" cellspacing="0" cellpadding="0" width="100%">
                         <tr>
-                            <td valign="top" align="center"  class="lefttd" width="80px">
-                                <table class="leftpane" border="0" cellspacing="0" cellpadding="0" width="100%" height="1000px"><tr><td valign="top" align="center" >
+                            <td valign="top" align="center"  class="leftpane" width="80px">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td valign="top" align="center" >
                                     <div><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fank11.mathsntech.in%2F1.0%2F&amp;layout=box_count&amp;show_faces=false&amp;width=80&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:55px; height:70px; padding-top: 50px;" allowTransparency="true"></iframe></div>
                                     <div class="followicon"><a target="_blank" href="#"><img src="images/facebook.png" width="32" height="32" alt="facebook" /></a></div>
                                     <div class="followicon"><a target="_blank" href="http://www.twitter.com/ank2011/"><img src="images/twitter.png" width="32" height="32" alt="twitter" /></a></div>
@@ -81,13 +81,17 @@
                                  </td></tr></table>
                             </td>
                             <td width="9px" class="leftshadow" />
-                            <td valign="top" align="center" >
-                                <table class="midpane" border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <td valign="top" align="center" class="midpane">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                     <tr valign="top">
                                         <td><?php
                                             if ($_GET['p'] == "register")
                                             {
                                                 include "register.php";
+                                            }
+                                            elseif ($_GET['p'] == "hospitality")
+                                            {
+                                                include "hospitality.php";
                                             }
                                             elseif ($_GET['p'] == "contact")
                                             {
@@ -102,8 +106,8 @@
                                 </table>
                             </td>
                             <td width="9px" class="rightshadow" />
-                            <td valign="top" align="center"  class="righttd" width="300px">
-                                <table class="rightpane" border="0" cellspacing="0" cellpadding="0" width="100%" height="1000px">
+                            <td valign="top" align="center"  class="rightpane" width="300px">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%" height="1000px">
                                     <tr>
                                         <td valign="top" align="center" >
                                             <div id="wpcumuluswidgetcontent" class="tagcloud">

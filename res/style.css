@@ -60,24 +60,16 @@ a:hover
     padding: 0 0 0 0;
 }
 
-.lefttd
+.leftpane
 {
     left: 0;
     padding: 0;
-}
-
-.righttd
-{
-    padding: 0px;
-}
-
-.leftpane
-{
     background: #E0E0E5;
 }
 
 .rightpane
 {
+    padding: 0px;
     background: #E0E0E5;
 }
 
@@ -168,4 +160,9 @@ h1
 p
 {
     margin-bottom: 20px;
+}
+
+blockquote
+{
+    font-style: italic;
 }
