@@ -5,18 +5,18 @@
 }
 
 .pikachoose {
-    width: 520px;
+    width: 570px;
     margin: 0 auto;
 }
 
 .pika-stage {
     position: relative;
     background: #fafafa;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #d0d0d0;
     padding: 10px 10px 10px 10px;
     text-align:center;
-    width: 500px;
-    height:250px;
+    width: 550px;
+    height:275px;
 }
 
 /*if you change the padding on pika-stage you must adjust the top left of this to match! */
@@ -54,7 +54,7 @@
 
 .pika-stage .caption {
     position: absolute;
-    background: url(75-black.png);
+    background: rgba(0,0,0,0.75);
     border: 1px solid #141414;
     font-size: 11px;
     color: #fafafa;

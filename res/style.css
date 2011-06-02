@@ -152,7 +152,7 @@ a:hover
 h1
 {
     font-size: 40px;
-    /*font-family: verdana, tahoma, sans-serif;*/
+    font-family: verdana, tahoma, sans-serif;
     color: #444444;
     margin-bottom: 30px;
     margin-top: 20px;
