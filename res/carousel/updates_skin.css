@@ -1,8 +1,8 @@
 .jcarousel-skin-updates .jcarousel-container {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: transparent;
+    -moz-box-shadow: 5px 5px 9px #B0B0B0;
+    -webkit-box-shadow: 5px 5px 9px #B0B0B0;
+    box-shadow: 5px 5px 9px #B0B0B0;
+    background: #FAFAFA;
 }
 
 .jcarousel-skin-updates .jcarousel-direction-rtl {

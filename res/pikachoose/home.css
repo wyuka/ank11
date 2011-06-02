@@ -1,0 +1,125 @@
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+.pika-thumbs li{
+    width: 80px;
+    height:40px;
+}
+
+.pikachoose {
+    width: 520px;
+    margin: 0 auto;
+}
+
+.pika-stage {
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+    width: 500px;
+    height:250px;
+}
+
+/*if you change the padding on pika-stage you must adjust the top left of this to match! */
+.pika-stage .main-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pika-stage .pika-aniwrap{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.pika-stage .pika-aniwrap{
+    width:100%;
+}
+
+.pika-stage .pika-ani {
+    position:relative;
+    display: none;
+    z-index:2;
+    margin:0 auto;
+}
+
+.pika-stage img {
+    border:0;
+    height:100%;
+}
+
+.pika-stage a {
+    color: white;
+}
+
+.pika-stage .caption {
+    position: absolute;
+    background: url(75-black.png);
+    border: 1px solid #141414;
+    font-size: 11px;
+    color: #fafafa;
+    padding: 10px;
+    text-align: right;
+    bottom: 20px;
+    right: 10px;
+}
+
+.pika-stage .caption p {
+    padding: 0;
+    margin: 0;
+    line-height: 14px;
+}
+
+.pika-imgnav a {
+    position: absolute;
+    text-indent: -5000px;
+    display: block;
+    z-index:3;
+}
+
+.pika-imgnav a.previous {
+    background: url(prev.png) no-repeat left 45%;
+    height: 100%;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    cursor:pointer;
+}
+
+.pika-imgnav a.next {
+    background: url(next.png) no-repeat right 45%;
+    height: 100%;
+    width: 50px;
+    top: 10px;
+    right: 10px;
+    cursor:pointer;
+}
+
+.pika-imgnav a.play {
+    display: none;
+}
+.pika-imgnav a.pause {
+    display: none;
+}
+
+.pika-textnav {
+    display: none;
+}
+
+.pika-thumbs {
+    display: none;
+}
+
+/*for the counter*/
+.pika-counter{
+    position: absolute;
+    bottom: 15px;
+    left:15px;
+    color:white;
+    background:rgba(0,0,0,0.7);
+    font-size:11px;
+    padding:3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+}

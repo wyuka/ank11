@@ -1,3 +1,3 @@
 <div class="page">
-<h1>Home</h1>
+<p><?php include "homeslideshow.php" ?></p>
 </div>
