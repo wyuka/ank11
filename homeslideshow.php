@@ -2,8 +2,7 @@
 <script type="text/javascript">
     jQuery(document).ready(function() {
         jQuery("#homeslideshow").PikaChoose({
-            transition: [2,3,4,5,6],
-            thumbnails: false
+            transition: [2,3,4,5,6]
         });
     });
 </script>
