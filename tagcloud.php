@@ -1,8 +1,8 @@
 <table>
     <tr><td>
-        <h3 class="cufon1">Events</h3>
+        <h3 class="cufon1" style="margin-top: 20px; margin-bottom: 10px;">Updates</h3>
     </td></tr>
-    <tr><td style="margin: 0px 0px 0px 0px; border: none;"><hr></td></tr>
+    <tr><td><hr style="margin-top: 0px; margin-bottom: 0px;"></td></tr>
     <tr><td></td></tr>
     <tr><td>
         <div id="wpcumuluswidgetcontent" class="tagcloud">
@@ -16,7 +16,7 @@
             widget_so.addParam("allowScriptAccess", "always");
             widget_so.addVariable("tcolor", "0x000000");
             widget_so.addVariable("tcolor2", "0x000000");
-            widget_so.addVariable("hicolor", "0x555555");
+            widget_so.addVariable("hicolor", "0x333355");
             widget_so.addVariable("tspeed", "250");
             widget_so.addVariable("distr", "true");
             widget_so.addVariable("mode", "tags");
