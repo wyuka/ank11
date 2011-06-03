@@ -95,6 +95,22 @@
                                             {
                                                 include "about.php";
                                             }
+                                            elseif ($p == "events")
+                                            {
+                                                include "events.php";
+                                            }
+                                            elseif ($p == "workshops")
+                                            {
+                                                include "workshops.php";
+                                            }
+                                            elseif ($p == "sponsors")
+                                            {
+                                                include "sponsors.php";
+                                            }
+                                            elseif ($p == "gallery")
+                                            {
+                                                include "gallery.php";
+                                            }
                                             elseif ($p == "hospitality")
                                             {
                                                 include "hospitality.php";
