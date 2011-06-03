@@ -1,5 +1,5 @@
 <div class="page">
-<h1 class="cufon1">Accomodation</h1>
+<h1 class="cufon1">Hospitality</h1>
 <p>
 We, Maths 'N' Tech Club, welcome you all to the fun-filled 2 days and 3
 nights of celebration of knowledge. We thoroughly abide by the tradition of
@@ -7,15 +7,13 @@ nights of celebration of knowledge. We thoroughly abide by the tradition of
 At Ank 11, we promise to make every moment of your stay memorable,
 enjoyable, and hassle-free. Our sincerest endeavour is to help you
 participate in all events and have a fun time here at NIT Durgapur
-without any hindrance.itality team will leave no stone unturned
-and try in every way to make your stay at Aarohan as pleasant and
-comfortable as we can.
+without any hindrance.
 </p>
 
-<h2 class="cufon1">Availing Accommodation</h2>
+<h2 class="cufon1">Accommodation</h2>
 <p>
 To avail a safe and hassle free accommodation at NIT Durgapur campus
-all you need to do is just register yourself for Aarohan-2011.
+all you need to do is just register yourself for Ank 11.
 Accommodation within campus will be provided on first come first serve basis.
 No extra charges are required for accommodation.
 </p>
