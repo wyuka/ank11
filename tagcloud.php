@@ -1,6 +1,6 @@
 <table>
     <tr><td>
-        <h3 class="cufon1" style="margin-top: 20px; margin-bottom: 10px;">Updates</h3>
+        <h3 class="cufon1" style="margin-top: 20px; margin-bottom: 10px;">Events</h3>
     </td></tr>
     <tr><td><hr style="margin-top: 0px; margin-bottom: 0px;"></td></tr>
     <tr><td></td></tr>
